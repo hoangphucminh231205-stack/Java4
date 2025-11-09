@@ -30,4 +30,29 @@ Một dự án Java Web được phát triển bằng **Jakarta EE (Servlet + JS
 ---
 
 ## ⚙️ Cấu trúc dự án
+src/
+└── main/
+├── java/com/example/java4_sd20302/
+│ ├── Controller/
+│ │ └── StudentsServlet.java
+│ ├── Repository/
+│ │ └── StudentsRepository.java
+│ ├── Service/
+│ │ └── StudentService.java
+│ └── entity/
+│ └── Student.java
+├── resources/META-INF/
+│ ├── create.sql
+│ └── persistence.xml
+└── webapp/
+├── index.jsp
+├── WEB-INF/web.xml
+└── views/
+├── create.jsp
+├── update.jsp
+└── students.jsp
 
+🧑‍💻 Tác giả
+👤 Hoàng Phúc Minh
+📚 FPT Polytechnic — Môn Java 4 (SD20302)
+📅 Năm học: 2025
